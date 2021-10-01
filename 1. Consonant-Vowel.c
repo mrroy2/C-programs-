@@ -3,7 +3,7 @@ int main() {
     char c;
     int lowercase, uppercase;
     printf("Enter an alphabet: ");
-    scanf("&c", &c);
+    scanf("%c", &c);
 
     // evaluates to 1 if variable c is lowercase
     lowercase = (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
